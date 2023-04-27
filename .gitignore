@@ -1,0 +1,20 @@
+/.vs
+/delete_pdb
+/Bin/Debug-x64
+/Bin/Release-x64
+
+
+#ignoring binaries from Libs
+/Libs/Bin
+
+#ignoring test projects here
+/Bin/Release-x64/Test*
+
+
+#by ext
+*.idb
+*.suo
+
+#managed folders should be here
+/Libs/Managed/WPFHost/obj
+

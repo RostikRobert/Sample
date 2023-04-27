@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Sources\main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Common\Globals.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Sprite\Sprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Drawable\Drawable.cpp">
+      <Filter>Drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Application\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\esUtils\esUtil.cpp">
+      <Filter>esUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\TGA\TGA.cpp">
+      <Filter>TGA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Math\esMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\main\pch.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Animator\Animator.cpp">
+      <Filter>Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Node\Node.cpp">
+      <Filter>Node</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Sources\Common\Base_Funcs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Common\Globals.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Common\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Sprite\Sprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Drawable\Drawable.h">
+      <Filter>Drawable</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Application\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\esUtils\esUtil.h">
+      <Filter>esUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\TGA\TGA.h">
+      <Filter>TGA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Math\esMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\main\pch.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Animator\Animator.h">
+      <Filter>Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\Node\Node.h">
+      <Filter>Node</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{df86ae52-6ec5-4de8-9116-f439a40221c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{03b5d70c-a60d-427e-aff7-cf78282d135c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{8084790b-64e2-4fc1-9dc8-2423d8e25f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Shaders">
+      <UniqueIdentifier>{bac1d818-599e-4ae7-87a7-e282e0ee93b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{cd3f37dd-9f2e-4c0b-9c6b-938e4acedae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawable">
+      <UniqueIdentifier>{781997e5-205c-4589-99a5-b544d3497c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{e5f99ea0-2a33-4c1b-be6b-e1537009995d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{7fd136d2-e56d-498a-ad1e-15cd91fe9c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{3f8c8fc8-62f5-47b4-9b54-6a0d7890a42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="esUtils">
+      <UniqueIdentifier>{6f5a81dd-75d5-4dfb-b9e6-207912d94e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TGA">
+      <UniqueIdentifier>{131f1032-144a-496c-a320-db65e3600b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animator">
+      <UniqueIdentifier>{8fc27869-20af-4c5a-9677-ace8388dee1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Node">
+      <UniqueIdentifier>{b968c30a-d417-43c6-90f0-acc320dd00f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Bin\Resources\Shaders\Particle.fs">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+    <None Include="..\Bin\Resources\Shaders\Particle.vs">
+      <Filter>Resources\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Bin\Resources\Textures\fire.tga">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Bin\Resources\Textures\noise.tga">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Bin\Resources\Textures\smoke.tga">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+    <Image Include="..\Bin\Resources\Textures\star.tga">
+      <Filter>Resources\Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
